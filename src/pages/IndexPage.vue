@@ -10,9 +10,9 @@
         filled
         v-model="id"
         label="Your id *"
-        hint="surname"
+        hint="id-code"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'Please type your id']"
+        :rules="[ val => val && val.length > 0 || 'Please type your id-code']"
       />
     
       <q-input
@@ -21,7 +21,7 @@
         label="Your name *"
         hint="Name"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'Please type something']"
+        :rules="[ val => val && val.length > 0 || 'Please type name']"
       />
 
       <q-input
